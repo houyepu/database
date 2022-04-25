@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8692547A-1BBA-A6CD-DE81-17F1D1AF5853" name="PASSENGER_PAYMENT">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:05:12 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="passenger_id" id="42B69CB9-79EA-8CEC-17A9-71157717600E">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:07:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>9E288ABD-54A0-AAE0-ED8F-19583AD55718</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>5C2914B1-33EF-B25C-7095-C03CB22E3FC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="spoken_lang" id="809F944A-1ADB-7CC3-4E74-B2924306B809">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:05:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's spoken language]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="payment_received" id="E90612D9-C1BC-2A4E-C3E9-FAC2D443565A">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:06:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[payment received]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43D24CAE-9DC6-749C-D7C6-83736B24AB4E" name="PASSENGER_PAYMENT PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:07:15 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42B69CB9-79EA-8CEC-17A9-71157717600E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PASSENGER_PASSENGERPAYMENT" directorySegmentName="seg_0" id="9E288ABD-54A0-AAE0-ED8F-19583AD55718">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:07:15 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<sourcePk>D250DE73-7793-2779-B5C3-F39E928EB383</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>paid </nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>88AD2F7C-125D-B5D0-FD23-210079FCDADC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8692547A-1BBA-A6CD-DE81-17F1D1AF5853</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

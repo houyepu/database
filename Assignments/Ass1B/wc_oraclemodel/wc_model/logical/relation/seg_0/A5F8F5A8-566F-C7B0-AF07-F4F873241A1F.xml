@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CRUISEROUTE_ROUTE" directorySegmentName="seg_0" id="A5F8F5A8-566F-C7B0-AF07-F4F873241A1F">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:48:12 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<sourcePk>1E1F2559-455D-31F8-5594-2C300115D64E</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>contains</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>177D6E1D-54DD-D8E4-B11E-9292CEBF0937</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EA80DEAE-1F3F-AECD-FDD5-8269F6A0CA92</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

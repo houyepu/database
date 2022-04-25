@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MANIFEST_PASSENGER" directorySegmentName="seg_0" id="07BC6619-3D07-50AF-D002-2489855155CE">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:02:56 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<sourcePk>7137AC05-87C0-6DC8-16CF-C864B673B83B</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>booked</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>58E5259D-EACD-BE0A-AF57-1BA5B598E918</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88AD2F7C-125D-B5D0-FD23-210079FCDADC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE622940-59A7-8E6E-ACB0-1EE5F55D1960" name="TEMP">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:27:21 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="port_code" id="46043C11-02E3-C594-BBD0-8BCD43CAF283">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:38:48 UTC</createdTime>
+<generatorID>CA149968-B366-1172-51BB-1DAE7E1E5D2F</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<referedAttribute>830DB002-F54F-53C2-6B8D-9C87A53AAACF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temp_month" id="CEA8242D-92EE-D5E9-4D61-DC72952CC26F">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:27:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[month of temperature]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temp_high" id="0F28DFC0-970C-C917-F0C5-C25B9333DC79">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:36:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[highest temperature]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temp_low" id="0CF9B8E7-4E9C-32E5-D29B-56EFEFEB43C6">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:36:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[lowest temperature ]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64687ACE-2892-FC53-303D-3C64678BBA28" name="TEMP PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:37:36 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CEA8242D-92EE-D5E9-4D61-DC72952CC26F</attributeRef>
+<attributeRef>46043C11-02E3-C594-BBD0-8BCD43CAF283</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

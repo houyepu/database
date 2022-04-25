@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EA80DEAE-1F3F-AECD-FDD5-8269F6A0CA92" name="ROUTE">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:47:46 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cruise_depart_time" id="FB70EBB9-39AF-18F1-1A2B-EC20CD89CF3D">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:48:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise depart time]]></commentInRDBMS>
+<generatorID>A5F8F5A8-566F-C7B0-AF07-F4F873241A1F</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<referedAttribute>D0D32983-98F9-1BA9-C8B9-E6EB27693397</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="B1054108-0625-691D-D315-10182897DAB7">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:49:49 UTC</createdTime>
+<generatorID>8BF7CFB1-2014-91FC-DB58-FA4E3C11257B</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<referedAttribute>830DB002-F54F-53C2-6B8D-9C87A53AAACF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_arrival_time" id="28B369DF-E706-9EF1-7479-66A761E070C0">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:04:23 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise arrival time]]></commentInRDBMS>
+<generatorID>A5F8F5A8-566F-C7B0-AF07-F4F873241A1F</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<referedAttribute>649609A4-EFF6-CB2F-0557-0201F4B5EE56</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="4CD69CD1-4111-9FDD-2D38-C19BE7267DAB">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:06:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
+<generatorID>A5F8F5A8-566F-C7B0-AF07-F4F873241A1F</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<referedAttribute>47B1D362-0453-D6CB-E7D3-2C7B931D24BD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3373F174-A3D7-E47A-0134-59E67F7D54AB" name="ROUTE PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:48:12 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB70EBB9-39AF-18F1-1A2B-EC20CD89CF3D</attributeRef>
+<attributeRef>28B369DF-E706-9EF1-7479-66A761E070C0</attributeRef>
+<attributeRef>4CD69CD1-4111-9FDD-2D38-C19BE7267DAB</attributeRef>
+<attributeRef>B1054108-0625-691D-D315-10182897DAB7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

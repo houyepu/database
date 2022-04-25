@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="177D6E1D-54DD-D8E4-B11E-9292CEBF0937" name="CRUISEROUTE">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:44:25 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cruise_arrival_time" id="649609A4-EFF6-CB2F-0557-0201F4B5EE56">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:44:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise arrival time]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_depart_time" id="D0D32983-98F9-1BA9-C8B9-E6EB27693397">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:44:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise depart time]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="47B1D362-0453-D6CB-E7D3-2C7B931D24BD">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:06:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
+<generatorID>A5D52050-F303-57AA-9984-DEF0078925E2</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<referedAttribute>34E2CBD7-3860-BE6E-13B7-3B96E8D5FD26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1E1F2559-455D-31F8-5594-2C300115D64E" name="CRUISEROUTE PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:44:44 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>649609A4-EFF6-CB2F-0557-0201F4B5EE56,D0D32983-98F9-1BA9-C8B9-E6EB27693397,A5D52050-F303-57AA-9984-DEF0078925E2</newElementsIDs>
+<usedAttributes>
+<attributeRef>649609A4-EFF6-CB2F-0557-0201F4B5EE56</attributeRef>
+<attributeRef>D0D32983-98F9-1BA9-C8B9-E6EB27693397</attributeRef>
+<attributeRef>47B1D362-0453-D6CB-E7D3-2C7B931D24BD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

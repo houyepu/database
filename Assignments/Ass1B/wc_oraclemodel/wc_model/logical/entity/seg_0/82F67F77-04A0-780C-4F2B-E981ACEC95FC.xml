@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82F67F77-04A0-780C-4F2B-E981ACEC95FC" name="CABIN">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:22:24 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cabin_no" id="FBE69D99-EE8E-C264-5BFB-6966EA05B6F5">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:54:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin number]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_class" id="22F6C04F-0253-8214-0E95-D18B06D6E0CE">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:54:22 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin class]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_code" id="1BD157CF-F2AB-BC00-1EC6-6FC39AEF60D0">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:55:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>6108807E-608E-585C-7F47-AEA2D7ABBB25</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>0F47655E-D24D-ACDC-4D9F-8D8446482E5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manifest_id" id="8EED7246-4B8F-B486-70ED-C72A4346A6B3">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:56:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
+<generatorID>C0C0FC84-2229-2BF0-6BC0-585904F61626</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>02CC3FD1-55C0-110C-F79A-C49B71242AB4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_id" id="1939F0BB-EAA1-BC0F-9E67-CBC3B39670D4">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:54:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin id (surrogate pk)]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FC144D3-A874-BE53-D999-928991DB247F" name="CABIN PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:54:52 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1939F0BB-EAA1-BC0F-9E67-CBC3B39670D4</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="19E0E048-FD1B-0324-A28D-BB4267196EFC" name="CABIN UK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:56:53 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<newElementsIDs>22F6C04F-0253-8214-0E95-D18B06D6E0CE,FBE69D99-EE8E-C264-5BFB-6966EA05B6F5,C0C0FC84-2229-2BF0-6BC0-585904F61626,8EED7246-4B8F-B486-70ED-C72A4346A6B3,6108807E-608E-585C-7F47-AEA2D7ABBB25</newElementsIDs>
+<usedAttributes>
+<attributeRef>22F6C04F-0253-8214-0E95-D18B06D6E0CE</attributeRef>
+<attributeRef>FBE69D99-EE8E-C264-5BFB-6966EA05B6F5</attributeRef>
+<attributeRef>8EED7246-4B8F-B486-70ED-C72A4346A6B3</attributeRef>
+<attributeRef>8EED7246-4B8F-B486-70ED-C72A4346A6B3</attributeRef>
+<attributeRef>1BD157CF-F2AB-BC00-1EC6-6FC39AEF60D0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

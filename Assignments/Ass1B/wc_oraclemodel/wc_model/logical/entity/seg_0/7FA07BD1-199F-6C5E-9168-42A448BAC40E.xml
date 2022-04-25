@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7FA07BD1-199F-6C5E-9168-42A448BAC40E" name="WORLDCRUISE">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:46:23 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cruise_id" id="34E2CBD7-3860-BE6E-13B7-3B96E8D5FD26">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:46:36 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_description" id="5CEDB3B0-61A6-D0AB-836B-F6EAD1B75A3F">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:46:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise description]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_name" id="78136679-25F0-EFCE-6433-CFC9EB413505">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:47:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's name]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="2A6350E4-7701-5C86-83B2-D54520514492">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:08:59 UTC</createdTime>
+<generatorID>A025C255-18FA-917C-ADAA-BCCCE601A86D</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>830DB002-F54F-53C2-6B8D-9C87A53AAACF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_code" id="9CC87C56-1458-2E2A-5C3A-E1B545A30525">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:15:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>53C871BE-54B8-4B71-9FE2-1D32D86039FC</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>0F47655E-D24D-ACDC-4D9F-8D8446482E5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="126095C3-C510-DECE-5641-DAD808622B06" name="WORLDCRUISE PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:46:39 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34E2CBD7-3860-BE6E-13B7-3B96E8D5FD26</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

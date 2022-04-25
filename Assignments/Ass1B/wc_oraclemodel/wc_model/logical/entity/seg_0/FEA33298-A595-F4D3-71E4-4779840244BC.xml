@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FEA33298-A595-F4D3-71E4-4779840244BC" name="PORT">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:49:06 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="port_code" id="830DB002-F54F-53C2-6B8D-9C87A53AAACF">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:49:13 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_name" id="59A9E927-4179-22FE-40DF-59710B8071F0">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:51:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[port's name]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="country_code" id="E0E13CCD-533D-0F96-1C20-8D8634AA1E7C">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:51:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[country code]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_population" id="7630DC28-907E-0802-AAE5-FB23B2F5A8E5">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:51:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[port's population]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_longitude" id="5439B5F7-7714-758F-9267-557A1E168E9C">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:51:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[port's longitude]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_latitude" id="46B8D00F-0DAA-FEB5-38B8-A3FC042B849B">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:51:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[port's latitude]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F6D9BD3F-CF90-0E91-00EC-7AB2F4E7539A" name="PORT PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:49:28 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>830DB002-F54F-53C2-6B8D-9C87A53AAACF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

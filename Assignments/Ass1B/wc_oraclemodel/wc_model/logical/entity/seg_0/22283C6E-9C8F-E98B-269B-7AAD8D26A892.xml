@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="22283C6E-9C8F-E98B-269B-7AAD8D26A892" name="SHIP">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:12:01 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ship_code" id="0F47655E-D24D-ACDC-4D9F-8D8446482E5E">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:12:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_name" id="4BE9769B-78AA-B5DF-D478-484958298E2E">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:12:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship's name]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_commissioned_date" id="07F8137C-9AE6-0D1C-5468-15371D2D942D">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship commissioned date]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_tonnage" id="21D5ACFF-2289-F811-C5A1-BD62A138453C">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:13:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[tonnage of ship]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_guest_capacity" id="B56F2D4D-9559-7AFF-B211-6E26B600700D">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:13:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[guest capacity of ship]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ship_Registered_Country" id="04304F5F-6D4A-9D9A-A6EB-502F04C90C68">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:13:30 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship Registered Country]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="operator_id" id="3A860351-A9C3-5336-6FF5-5007E9245F13">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:18:31 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator id]]></commentInRDBMS>
+<generatorID>3E9ECDAD-2950-3FB3-E204-2873C449E50A</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>EDAB920C-3B9C-9C5F-F3BC-4907FA38A3F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF5094C1-2C22-5B9A-3176-17310DACD4F9" name="SHIP PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 09:15:00 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0F47655E-D24D-ACDC-4D9F-8D8446482E5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58E5259D-EACD-BE0A-AF57-1BA5B598E918" name="MANIFEST">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:52:11 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="manifest_id" id="02CC3FD1-55C0-110C-F79A-C49B71242AB4">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:52:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manifest_time" id="AF209709-8A75-9EFE-A5C9-5ED6E1FAE28A">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:52:52 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest time and date]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="BC2ADF2E-8618-C35F-EDED-C8D97CE2AABA">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:53:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
+<generatorID>109B6A21-8339-4AD0-5F0D-E663A657F957</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>34E2CBD7-3860-BE6E-13B7-3B96E8D5FD26</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7137AC05-87C0-6DC8-16CF-C864B673B83B" name="MANIFEST PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:52:45 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02CC3FD1-55C0-110C-F79A-C49B71242AB4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

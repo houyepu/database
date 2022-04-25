@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88AD2F7C-125D-B5D0-FD23-210079FCDADC" name="PASSENGER">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:22 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="passenger_id" id="5C2914B1-33EF-B25C-7095-C03CB22E3FC7">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_firstname" id="1CB0AC91-74B3-2A68-C398-C9D24A05E08C">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's firstname]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_lastname" id="E62F2190-9138-47CE-1219-DC22D2487A3B">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's lastname]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_gender" id="4DE53C45-C3AD-8370-47B7-6CCF56D5B5E1">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's gender M-man W-woman O-other]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="M" description="man"/>
+<valueDef value="O" description="other"/>
+<valueDef value="W" description="woman"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_dob" id="71406829-E4B4-5B12-BD27-1B2C290CA600">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's dob]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_street_no" id="F4F3D6C7-AED6-D7E8-FA80-8FEF9DE65908">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's street number]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_town" id="26F317CD-CA75-7893-C4CD-1B934D02ACFB">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's town]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_postcode" id="29A618E5-C9AA-050E-FCA7-857293AE8F7D">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's postcode]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_country" id="274D1F69-5D9A-5764-807A-88D632EA9974">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's country]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passenger_phone_no" id="56D27B11-E5E2-EDC1-BB20-C966F6D0F344">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 10:58:41 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's phone number]]></commentInRDBMS>
+<ownerDesignName>wc_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manifest_id" id="B4A29619-19D5-8CE1-0149-87FF32193B89">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:02:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
+<generatorID>07BC6619-3D07-50AF-D002-2489855155CE</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>02CC3FD1-55C0-110C-F79A-C49B71242AB4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D250DE73-7793-2779-B5C3-F39E928EB383" name="PASSENGER PK">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 11:02:28 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5C2914B1-33EF-B25C-7095-C03CB22E3FC7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
