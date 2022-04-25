@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="wc_model" id="6478D56F-11BF-D329-7FD6-CA19D5137DD4" version="3.5">
+<createdBy>darren</createdBy>
+<createdTime>2022-04-25 08:13:46 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6478D56F-11BF-D329-7FD6-CA19D5137DD4</designId>
+</OSDM_Design>
