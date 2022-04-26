@@ -3,9 +3,6 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 08:44:25 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,9 +17,6 @@
 <createdTime>2022-04-25 08:44:40 UTC</createdTime>
 <commentInRDBMS><![CDATA[cruise arrival time]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -33,9 +27,6 @@
 <createdTime>2022-04-25 08:44:49 UTC</createdTime>
 <commentInRDBMS><![CDATA[cruise depart time]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -47,14 +38,23 @@
 <commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
 <generatorID>A5D52050-F303-57AA-9984-DEF0078925E2</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <referedAttribute>34E2CBD7-3860-BE6E-13B7-3B96E8D5FD26</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="port_code" id="24D16BE1-71AC-6318-711E-BA5416986946">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 00:44:26 UTC</createdTime>
+<generatorID>6A1AF3BC-5B91-09BC-61E8-9E0EC0C2151C</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>830DB002-F54F-53C2-6B8D-9C87A53AAACF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -63,9 +63,6 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 08:44:44 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <newElementsIDs>649609A4-EFF6-CB2F-0557-0201F4B5EE56,D0D32983-98F9-1BA9-C8B9-E6EB27693397,A5D52050-F303-57AA-9984-DEF0078925E2</newElementsIDs>
 <usedAttributes>

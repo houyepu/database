@@ -3,9 +3,6 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:50:54 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -20,9 +17,6 @@
 <createdTime>2022-04-25 09:51:06 UTC</createdTime>
 <commentInRDBMS><![CDATA[report generated date]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -33,30 +27,24 @@
 <createdTime>2022-04-25 09:51:38 UTC</createdTime>
 <generatorID>61C27F2F-7DEA-F297-98A2-759AC2B789EC</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <referedAttribute>DEF188AF-6EA1-10CD-8609-66061F30653C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="port_code" id="77341235-93ED-CE88-F8C5-4728541A99E2">
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:51:38 UTC</createdTime>
 <generatorID>61C27F2F-7DEA-F297-98A2-759AC2B789EC</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <referedAttribute>6E353B16-A171-0277-7FBF-AAB1C7C49CC3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -64,9 +52,6 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:51:23 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>97A420C2-F032-6494-2BA8-2FAB3986470D</attributeRef>

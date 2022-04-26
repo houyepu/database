@@ -4,14 +4,15 @@
 <createdTime>2022-04-25 10:53:18 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
 <sourcePk>126095C3-C510-DECE-5641-DAD808622B06</sourcePk>
-<identifying>false</identifying>
+<targetPk>7137AC05-87C0-6DC8-16CF-C864B673B83B</targetPk>
+<identifying>true</identifying>
 <nameOnSource>managed</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>7FA07BD1-199F-6C5E-9168-42A448BAC40E</sourceEntity>
-<targetCardinalityString>1</targetCardinalityString>
+<targetCardinalityString>*</targetCardinalityString>
 <targetEntity>58E5259D-EACD-BE0A-AF57-1BA5B598E918</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>

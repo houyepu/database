@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFD59132-B27E-B11C-3DBE-1F438013EFD8" name="OPERATOR">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>9894CA99-0942-9ECB-A608-BE7C1DC3CF7B</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="operator_id" id="A32EC984-6417-97DB-6960-EA74D0CBFD73">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator id]]></commentInRDBMS>
+<generatorID>EDAB920C-3B9C-9C5F-F3BC-4907FA38A3F2</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operator_name" id="BC126960-F932-D818-F325-D24AE74EBC30">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator's name]]></commentInRDBMS>
+<generatorID>D1B11D6A-07FB-001F-775E-D92AE03768B3</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operator_ceo_name" id="9F481D0C-6426-10FA-F62B-18D06D7D476C">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[operator ceo's name]]></commentInRDBMS>
+<generatorID>93306B50-D205-99E6-30C3-8AD5D8B326F4</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4D1E718-B667-16DD-A9A1-A6F1DBA96EF6" name="OPERATOR_PK">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>BB6029D9-E077-FCCF-C79F-60B79BC08603</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A32EC984-6417-97DB-6960-EA74D0CBFD73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,161 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="399EC597-658D-90EA-94E1-46A244F262A6" name="PASSENGER">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>88AD2F7C-125D-B5D0-FD23-210079FCDADC</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="passenger_id" id="774877BC-91A5-519D-6CF4-B8D9E8D16F5C">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>5C2914B1-33EF-B25C-7095-C03CB22E3FC7</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_firstname" id="30B41C2E-71F4-A781-4020-524A0D19ED2D">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's firstname]]></commentInRDBMS>
+<generatorID>1CB0AC91-74B3-2A68-C398-C9D24A05E08C</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_lastname" id="663C9E53-2D2E-7ECC-3918-AB70695F2B3E">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's lastname]]></commentInRDBMS>
+<generatorID>E62F2190-9138-47CE-1219-DC22D2487A3B</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_gender" id="36DC3498-D09E-E12A-DBA7-E0907E6140CA">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's gender M-man W-woman O-other]]></commentInRDBMS>
+<generatorID>4DE53C45-C3AD-8370-47B7-6CCF56D5B5E1</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="M" description="man"/>
+<valueDef value="O" description="other"/>
+<valueDef value="W" description="woman"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_dob" id="5C05DE8A-8BCA-ABA9-6570-68535E2A4C7A">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's dob]]></commentInRDBMS>
+<generatorID>71406829-E4B4-5B12-BD27-1B2C290CA600</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_street_no" id="13893472-529A-F479-6F41-65B9DA7CD7A2">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's street number]]></commentInRDBMS>
+<generatorID>F4F3D6C7-AED6-D7E8-FA80-8FEF9DE65908</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_town" id="8C73012E-C60D-30B6-62A9-00F2182E452B">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's town]]></commentInRDBMS>
+<generatorID>26F317CD-CA75-7893-C4CD-1B934D02ACFB</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_postcode" id="5CF26F5E-D862-8FFE-F870-E10B914B6C59">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's postcode]]></commentInRDBMS>
+<generatorID>29A618E5-C9AA-050E-FCA7-857293AE8F7D</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_country" id="4D6658F8-3F91-8C77-F679-FDB42C401019">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's country]]></commentInRDBMS>
+<generatorID>274D1F69-5D9A-5764-807A-88D632EA9974</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_phone_no" id="FF673963-7F24-29E2-0356-8A7E977742FF">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's phone number]]></commentInRDBMS>
+<generatorID>56D27B11-E5E2-EDC1-BB20-C966F6D0F344</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E31CF6A4-C0C5-6D98-7B92-CD0803618EE3" name="PASSENGER_PK">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>D250DE73-7793-2779-B5C3-F39E928EB383</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="774877BC-91A5-519D-6CF4-B8D9E8D16F5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

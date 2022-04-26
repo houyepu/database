@@ -28,11 +28,15 @@
 <createdTime>2022-04-25 10:54:22 UTC</createdTime>
 <commentInRDBMS><![CDATA[cabin class]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
+<listOfValues>
+<valueDef value="FC" description="FirstClass"/>
+<valueDef value="SC" description="SecondClass"/>
+<valueDef value="TC" description="ThirdClass"/>
+</listOfValues>
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ship_code" id="1BD157CF-F2AB-BC00-1EC6-6FC39AEF60D0">
@@ -72,6 +76,42 @@
 <dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="passenger_id" id="16F57657-95A3-96C0-3C5E-00EACF050ABD">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 00:36:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>C0C0FC84-2229-2BF0-6BC0-585904F61626</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>DC3C9CF6-4E5B-7140-6091-EFBFFB746EFC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="C67CF03B-48E6-C6B4-026A-27CA117E7957">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 00:40:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
+<generatorID>C0C0FC84-2229-2BF0-6BC0-585904F61626</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>507CD36C-E8B0-A275-BAE5-C7DABDDB3E10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cabin_capacity" id="4DF62C4F-2E84-693D-BA78-2A36E2457033">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:00:03 UTC</createdTime>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3FC144D3-A874-BE53-D999-928991DB247F" name="CABIN PK">
@@ -87,13 +127,15 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 10:56:53 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<newElementsIDs>22F6C04F-0253-8214-0E95-D18B06D6E0CE,FBE69D99-EE8E-C264-5BFB-6966EA05B6F5,C0C0FC84-2229-2BF0-6BC0-585904F61626,8EED7246-4B8F-B486-70ED-C72A4346A6B3,6108807E-608E-585C-7F47-AEA2D7ABBB25</newElementsIDs>
+<newElementsIDs>22F6C04F-0253-8214-0E95-D18B06D6E0CE,FBE69D99-EE8E-C264-5BFB-6966EA05B6F5,C0C0FC84-2229-2BF0-6BC0-585904F61626,6108807E-608E-585C-7F47-AEA2D7ABBB25,4DF62C4F-2E84-693D-BA78-2A36E2457033</newElementsIDs>
 <usedAttributes>
 <attributeRef>22F6C04F-0253-8214-0E95-D18B06D6E0CE</attributeRef>
 <attributeRef>FBE69D99-EE8E-C264-5BFB-6966EA05B6F5</attributeRef>
 <attributeRef>8EED7246-4B8F-B486-70ED-C72A4346A6B3</attributeRef>
-<attributeRef>8EED7246-4B8F-B486-70ED-C72A4346A6B3</attributeRef>
+<attributeRef>16F57657-95A3-96C0-3C5E-00EACF050ABD</attributeRef>
+<attributeRef>C67CF03B-48E6-C6B4-026A-27CA117E7957</attributeRef>
 <attributeRef>1BD157CF-F2AB-BC00-1EC6-6FC39AEF60D0</attributeRef>
+<attributeRef>4DF62C4F-2E84-693D-BA78-2A36E2457033</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

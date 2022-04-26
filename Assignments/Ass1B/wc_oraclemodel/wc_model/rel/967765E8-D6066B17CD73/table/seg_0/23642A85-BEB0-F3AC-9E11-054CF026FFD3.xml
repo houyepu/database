@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23642A85-BEB0-F3AC-9E11-054CF026FFD3" name="WORLDCRUISE">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>7FA07BD1-199F-6C5E-9168-42A448BAC40E</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cruise_id" id="F95E51E3-0CA5-0FA1-9E8B-79D02199E87E">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
+<generatorID>34E2CBD7-3860-BE6E-13B7-3B96E8D5FD26</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cruise_description" id="E2677AD3-0B4C-9984-A3FF-CC58FF4421D5">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise description]]></commentInRDBMS>
+<generatorID>5CEDB3B0-61A6-D0AB-836B-F6EAD1B75A3F</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cruise_name" id="5FC7DC35-316D-7A18-EB5F-2AE04B4841F8">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's name]]></commentInRDBMS>
+<generatorID>78136679-25F0-EFCE-6433-CFC9EB413505</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="port_code" id="E3D97781-73FB-01D5-3F38-098F637B2378">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>2A6350E4-7701-5C86-83B2-D54520514492</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD519992-1605-DEC5-8206-09738C293B80" referredColumn="BFC502BF-0A8E-FAE3-0E76-AA111573D15E"/>
+</associations>
+</Column>
+<Column name="ship_code" id="41725CC7-A5B6-914A-880C-F48E399E6E6E">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>9CC87C56-1458-2E2A-5C3A-E1B545A30525</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93F06062-34FA-7F9B-B918-9865E5823C39" referredColumn="DEFBB0E0-B289-DB16-7307-1240693F031D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6F0232A-D6E3-66D9-E785-57776728CD60" name="WORLDCRUISE_PK">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>126095C3-C510-DECE-5641-DAD808622B06</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F95E51E3-0CA5-0FA1-9E8B-79D02199E87E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5D6DFC1-B02A-7B1E-CCAB-31448E046D71" name="Relation_7">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>A025C255-18FA-917C-ADAA-BCCCE601A86D</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3D97781-73FB-01D5-3F38-098F637B2378"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55B659A5-89D3-D492-C818-10FE830022B6" name="SHIP_WORLDCRUISE">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>53C871BE-54B8-4B71-9FE2-1D32D86039FC</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="41725CC7-A5B6-914A-880C-F48E399E6E6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

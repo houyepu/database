@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF9AEF44-D63F-1503-486C-8F4CFB4C1056" name="CABIN">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>82F67F77-04A0-780C-4F2B-E981ACEC95FC</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cabin_no" id="BC0651C7-63B9-48C3-D3C9-AC8396B80CCF">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin number]]></commentInRDBMS>
+<generatorID>FBE69D99-EE8E-C264-5BFB-6966EA05B6F5</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cabin_class" id="CFA5D0B2-271B-E287-6777-CB5D2AE912BE">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin class]]></commentInRDBMS>
+<generatorID>22F6C04F-0253-8214-0E95-D18B06D6E0CE</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<listOfValues>
+<valueDef value="FC" description="FirstClass"/>
+<valueDef value="SC" description="SecondClass"/>
+<valueDef value="TC" description="ThirdClass"/>
+</listOfValues>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ship_code" id="5FB5AE1C-5366-20AD-021A-F135CE8A7206">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[ship code]]></commentInRDBMS>
+<generatorID>1BD157CF-F2AB-BC00-1EC6-6FC39AEF60D0</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14101606-8A10-6356-16FB-B39A0671AFFB" referredColumn="DEFBB0E0-B289-DB16-7307-1240693F031D"/>
+</associations>
+</Column>
+<Column name="manifest_id" id="F8AA9046-AA6E-FFAF-2414-72C8A2C96109">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
+<generatorID>8EED7246-4B8F-B486-70ED-C72A4346A6B3</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="943263EC-CA17-BE2C-D5A2-EF1149E6362A" referredColumn="0E661490-795C-376D-6C1B-135C7E9D6BE1"/>
+</associations>
+</Column>
+<Column name="cabin_id" id="D4FD2FAE-78AC-EEA4-DD85-439560341C19">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin id (surrogate pk)]]></commentInRDBMS>
+<generatorID>1939F0BB-EAA1-BC0F-9E67-CBC3B39670D4</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_id" id="59C645EF-B606-3370-2661-C0A4AB5FB13B">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>16F57657-95A3-96C0-3C5E-00EACF050ABD</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="943263EC-CA17-BE2C-D5A2-EF1149E6362A" referredColumn="621FF312-B149-8EDB-345B-AA03B5C9FAE2"/>
+</associations>
+</Column>
+<Column name="cruise_id" id="F836E00C-D973-437B-0116-C36C2109B4C0">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
+<generatorID>C67CF03B-48E6-C6B4-026A-27CA117E7957</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="943263EC-CA17-BE2C-D5A2-EF1149E6362A" referredColumn="71F49AC0-7C5C-BE9F-665D-AB6F49CB4952"/>
+</associations>
+</Column>
+<Column name="cabin_capacity" id="F8E07C0C-07CD-1DB6-BD06-FF939DAE3AC3">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>4DF62C4F-2E84-693D-BA78-2A36E2457033</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5176AB31-D7A4-D228-9639-27A8D3B9825E" name="CABIN_PK">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>3FC144D3-A874-BE53-D999-928991DB247F</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4FD2FAE-78AC-EEA4-DD85-439560341C19"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5468E79-181D-8C77-6D2B-6A48DEE3C0BE" name="CABIN_UK">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>19E0E048-FD1B-0324-A28D-BB4267196EFC</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFA5D0B2-271B-E287-6777-CB5D2AE912BE"/>
+<colUsage columnID="BC0651C7-63B9-48C3-D3C9-AC8396B80CCF"/>
+<colUsage columnID="F8AA9046-AA6E-FFAF-2414-72C8A2C96109"/>
+<colUsage columnID="59C645EF-B606-3370-2661-C0A4AB5FB13B"/>
+<colUsage columnID="F836E00C-D973-437B-0116-C36C2109B4C0"/>
+<colUsage columnID="5FB5AE1C-5366-20AD-021A-F135CE8A7206"/>
+<colUsage columnID="F8E07C0C-07CD-1DB6-BD06-FF939DAE3AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90A818D2-9DF6-54DB-4D38-AA14DCF796FE" name="MANIFEST_CABIN">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>C0C0FC84-2229-2BF0-6BC0-585904F61626</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8AA9046-AA6E-FFAF-2414-72C8A2C96109"/>
+<colUsage columnID="59C645EF-B606-3370-2661-C0A4AB5FB13B"/>
+<colUsage columnID="F836E00C-D973-437B-0116-C36C2109B4C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33C20C6E-2C6B-5858-8551-84778A7DF002" name="ship_cabin">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>6108807E-608E-585C-7F47-AEA2D7ABBB25</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FB5AE1C-5366-20AD-021A-F135CE8A7206"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

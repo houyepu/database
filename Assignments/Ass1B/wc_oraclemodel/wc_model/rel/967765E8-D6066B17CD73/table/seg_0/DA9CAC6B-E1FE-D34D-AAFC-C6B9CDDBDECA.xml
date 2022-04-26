@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA9CAC6B-E1FE-D34D-AAFC-C6B9CDDBDECA" name="PASSENGER_PAYMENT">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>8692547A-1BBA-A6CD-DE81-17F1D1AF5853</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="passenger_id" id="BE25B34F-7001-B749-1130-0D7F2D815083">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>42B69CB9-79EA-8CEC-17A9-71157717600E</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DEF95418-284D-92C6-6F4E-0041499DA9E0" referredColumn="774877BC-91A5-519D-6CF4-B8D9E8D16F5C"/>
+</associations>
+</Column>
+<Column name="spoken_lang" id="C732618A-032B-23BA-D935-71CAFB0AB5D6">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger's spoken language]]></commentInRDBMS>
+<generatorID>809F944A-1ADB-7CC3-4E74-B2924306B809</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="payment_received" id="69720FEE-E68A-B1BB-741D-484A656477B6">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[payment received]]></commentInRDBMS>
+<generatorID>E90612D9-C1BC-2A4E-C3E9-FAC2D443565A</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FA4DA3E-A06E-5B92-6F01-76577C292E09" name="PASSENGER_PAYMENT_PK">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>43D24CAE-9DC6-749C-D7C6-83736B24AB4E</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE25B34F-7001-B749-1130-0D7F2D815083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6EF1F05-5B5C-7EE5-0A1C-E9E7573F8F6A" name="PASSENGER_PASSENGERPAYMENT">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>9E288ABD-54A0-AAE0-ED8F-19583AD55718</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE25B34F-7001-B749-1130-0D7F2D815083"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

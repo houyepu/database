@@ -3,9 +3,6 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 08:49:06 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 08:49:13 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -33,9 +27,6 @@
 <createdTime>2022-04-25 08:51:45 UTC</createdTime>
 <commentInRDBMS><![CDATA[port's name]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,9 +38,6 @@
 <createdTime>2022-04-25 08:51:46 UTC</createdTime>
 <commentInRDBMS><![CDATA[country code]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -61,9 +49,6 @@
 <createdTime>2022-04-25 08:51:46 UTC</createdTime>
 <commentInRDBMS><![CDATA[port's population]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -75,9 +60,6 @@
 <createdTime>2022-04-25 08:51:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[port's longitude]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -89,9 +71,6 @@
 <createdTime>2022-04-25 08:51:47 UTC</createdTime>
 <commentInRDBMS><![CDATA[port's latitude]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -104,9 +83,6 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 08:49:28 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>830DB002-F54F-53C2-6B8D-9C87A53AAACF</attributeRef>

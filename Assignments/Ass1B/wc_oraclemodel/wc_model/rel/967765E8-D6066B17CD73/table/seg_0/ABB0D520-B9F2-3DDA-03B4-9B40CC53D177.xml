@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABB0D520-B9F2-3DDA-03B4-9B40CC53D177" name="TEMP">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>BE622940-59A7-8E6E-ACB0-1EE5F55D1960</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="port_code" id="1975888A-56F3-1C71-72F6-6C8465A2ADBD">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>46043C11-02E3-C594-BBD0-8BCD43CAF283</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6D9251A9-62BB-3FC1-9268-B537665F37B1" referredColumn="BFC502BF-0A8E-FAE3-0E76-AA111573D15E"/>
+</associations>
+</Column>
+<Column name="temp_month" id="045EE623-9CEC-3A6F-992D-C318450F9695">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[month of temperature]]></commentInRDBMS>
+<generatorID>CEA8242D-92EE-D5E9-4D61-DC72952CC26F</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temp_high" id="BD7EE762-B0A1-B074-5C0B-08B3E6BF085C">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[highest temperature]]></commentInRDBMS>
+<generatorID>0F28DFC0-970C-C917-F0C5-C25B9333DC79</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="temp_low" id="0BCA0032-578E-1DE6-F7F8-0707169AA79B">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[lowest temperature ]]></commentInRDBMS>
+<generatorID>0CF9B8E7-4E9C-32E5-D29B-56EFEFEB43C6</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A17DB6D-1F77-57B6-1AA4-29921BD92E62" name="TEMP_PK">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>64687ACE-2892-FC53-303D-3C64678BBA28</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="045EE623-9CEC-3A6F-992D-C318450F9695"/>
+<colUsage columnID="1975888A-56F3-1C71-72F6-6C8465A2ADBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1AFF8390-5C22-586B-71B6-36D17B14A1DB" name="PORT_TEMP">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>CA149968-B366-1172-51BB-1DAE7E1E5D2F</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1975888A-56F3-1C71-72F6-6C8465A2ADBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

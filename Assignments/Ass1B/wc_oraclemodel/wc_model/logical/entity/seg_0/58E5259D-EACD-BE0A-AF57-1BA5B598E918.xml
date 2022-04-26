@@ -34,9 +34,22 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cruise_id" id="BC2ADF2E-8618-C35F-EDED-C8D97CE2AABA">
-<createdBy>darren</createdBy>
-<createdTime>2022-04-25 10:53:18 UTC</createdTime>
+<Attribute name="passenger_id" id="DC3C9CF6-4E5B-7140-6091-EFBFFB746EFC">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 00:36:04 UTC</createdTime>
+<commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
+<generatorID>07BC6619-3D07-50AF-D002-2489855155CE</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<referedAttribute>5C2914B1-33EF-B25C-7095-C03CB22E3FC7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cruise_id" id="507CD36C-E8B0-A275-BAE5-C7DABDDB3E10">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 00:39:35 UTC</createdTime>
 <commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
 <generatorID>109B6A21-8339-4AD0-5F0D-E663A657F957</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
@@ -56,6 +69,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>02CC3FD1-55C0-110C-F79A-C49B71242AB4</attributeRef>
+<attributeRef>DC3C9CF6-4E5B-7140-6091-EFBFFB746EFC</attributeRef>
+<attributeRef>507CD36C-E8B0-A275-BAE5-C7DABDDB3E10</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -127,19 +127,6 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="manifest_id" id="B4A29619-19D5-8CE1-0149-87FF32193B89">
-<createdBy>darren</createdBy>
-<createdTime>2022-04-25 11:02:56 UTC</createdTime>
-<commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
-<generatorID>07BC6619-3D07-50AF-D002-2489855155CE</generatorID>
-<ownerDesignName>wc_model</ownerDesignName>
-<referedAttribute>02CC3FD1-55C0-110C-F79A-C49B71242AB4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D250DE73-7793-2779-B5C3-F39E928EB383" name="PASSENGER PK">

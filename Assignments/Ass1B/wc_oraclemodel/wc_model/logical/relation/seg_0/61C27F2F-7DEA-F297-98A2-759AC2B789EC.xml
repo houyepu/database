@@ -3,9 +3,6 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:51:38 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
-<engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
-</engineerTo>
 <sourcePk>CBAA96B5-5441-1C68-24CE-6391746493E2</sourcePk>
 <identifying>true</identifying>
 <nameOnSource>generate</nameOnSource>

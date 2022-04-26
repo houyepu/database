@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8F3122C-DE91-8EB8-85BA-F87D80CF0483" name="PARTICIPANT_REPORT">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>5FD032EB-766B-775E-D27A-A2E499133F0A</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="date_generated" id="730E0304-BF1A-AE1D-BC8A-13BF98BFAB5D">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[report generated date]]></commentInRDBMS>
+<generatorID>97A420C2-F032-6494-2BA8-2FAB3986470D</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tour_no" id="7BDA66F2-3D24-2548-B88F-D769E718085C">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>80F5573D-EE42-C575-A1A0-AB4B85E3ED57</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C231AB41-E709-C698-51CE-263CA5308BE5" referredColumn="D09AEECD-6CE4-0A24-0E57-B1F61F54DE9F"/>
+</associations>
+</Column>
+<Column name="port_code" id="C3CC4FAD-AEDD-0F3F-6AA5-26246B90F902">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>77341235-93ED-CE88-F8C5-4728541A99E2</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C231AB41-E709-C698-51CE-263CA5308BE5" referredColumn="A91E888E-FF06-A53C-01ED-65AC7C6026B8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="382D67E6-BD41-B80C-21F2-892A8105BF1E" name="PARTICIPANT_REPORT_PK">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>598BBCB4-BA93-E63D-ECAE-0B9152D99B95</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="730E0304-BF1A-AE1D-BC8A-13BF98BFAB5D"/>
+<colUsage columnID="7BDA66F2-3D24-2548-B88F-D769E718085C"/>
+<colUsage columnID="C3CC4FAD-AEDD-0F3F-6AA5-26246B90F902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEF87D2B-528D-2F07-B5FD-34DAB12E8C57" name="TOUR_PARTICIPANTREPORT">
+<createdBy>houye</createdBy>
+<createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<generatorID>61C27F2F-7DEA-F297-98A2-759AC2B789EC</generatorID>
+<ownerDesignName>wc_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7BDA66F2-3D24-2548-B88F-D769E718085C"/>
+<colUsage columnID="C3CC4FAD-AEDD-0F3F-6AA5-26246B90F902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
