@@ -3,6 +3,9 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 10:52:11 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdTime>2022-04-25 10:52:28 UTC</createdTime>
 <commentInRDBMS><![CDATA[manifest id]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -28,6 +34,9 @@
 <createdTime>2022-04-25 10:52:52 UTC</createdTime>
 <commentInRDBMS><![CDATA[manifest time and date]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -40,6 +49,9 @@
 <commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
 <generatorID>07BC6619-3D07-50AF-D002-2489855155CE</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <referedAttribute>5C2914B1-33EF-B25C-7095-C03CB22E3FC7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,6 +65,9 @@
 <commentInRDBMS><![CDATA[cruise's id]]></commentInRDBMS>
 <generatorID>109B6A21-8339-4AD0-5F0D-E663A657F957</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <referedAttribute>34E2CBD7-3860-BE6E-13B7-3B96E8D5FD26</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -66,6 +81,9 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 10:52:45 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>02CC3FD1-55C0-110C-F79A-C49B71242AB4</attributeRef>
