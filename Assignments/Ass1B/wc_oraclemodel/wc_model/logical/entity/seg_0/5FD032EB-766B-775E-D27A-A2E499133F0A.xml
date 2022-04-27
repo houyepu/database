@@ -3,6 +3,9 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:50:54 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdTime>2022-04-25 09:51:06 UTC</createdTime>
 <commentInRDBMS><![CDATA[report generated date]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
@@ -27,6 +33,9 @@
 <createdTime>2022-04-25 09:51:38 UTC</createdTime>
 <generatorID>61C27F2F-7DEA-F297-98A2-759AC2B789EC</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <referedAttribute>DEF188AF-6EA1-10CD-8609-66061F30653C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -39,6 +48,9 @@
 <createdTime>2022-04-25 09:51:38 UTC</createdTime>
 <generatorID>61C27F2F-7DEA-F297-98A2-759AC2B789EC</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <referedAttribute>6E353B16-A171-0277-7FBF-AAB1C7C49CC3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -52,6 +64,10 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:51:23 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>97A420C2-F032-6494-2BA8-2FAB3986470D</attributeRef>

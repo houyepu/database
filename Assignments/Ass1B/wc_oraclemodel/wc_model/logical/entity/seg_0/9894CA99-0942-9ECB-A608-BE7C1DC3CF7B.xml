@@ -4,7 +4,7 @@
 <createdTime>2022-04-25 09:17:20 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
 <engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -21,7 +21,7 @@
 <commentInRDBMS><![CDATA[operator id]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
 <engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -35,7 +35,7 @@
 <commentInRDBMS><![CDATA[operator's name]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
 <engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -49,7 +49,7 @@
 <commentInRDBMS><![CDATA[operator ceo's name]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
 <engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -63,8 +63,9 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:17:45 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="0DC3175D-4F35-8016-4395-6987F4FAA184" value="true"/>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

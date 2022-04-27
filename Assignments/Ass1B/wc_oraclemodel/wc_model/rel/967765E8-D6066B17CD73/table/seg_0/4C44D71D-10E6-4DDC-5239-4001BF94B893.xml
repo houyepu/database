@@ -42,8 +42,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="port_population" id="F317715C-3D8B-C046-8EEF-F9806C517DFC">

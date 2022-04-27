@@ -3,6 +3,9 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 11:05:12 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -18,6 +21,9 @@
 <commentInRDBMS><![CDATA[passenger id]]></commentInRDBMS>
 <generatorID>9E288ABD-54A0-AAE0-ED8F-19583AD55718</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <referedAttribute>5C2914B1-33EF-B25C-7095-C03CB22E3FC7</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,17 +36,23 @@
 <createdTime>2022-04-25 11:05:28 UTC</createdTime>
 <commentInRDBMS><![CDATA[passenger's spoken language]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="payment_received" id="E90612D9-C1BC-2A4E-C3E9-FAC2D443565A">
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 11:06:27 UTC</createdTime>
 <commentInRDBMS><![CDATA[payment received]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -53,6 +65,10 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 11:07:15 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>42B69CB9-79EA-8CEC-17A9-71157717600E</attributeRef>

@@ -3,6 +3,9 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:27:21 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,6 +20,9 @@
 <createdTime>2022-04-25 09:38:48 UTC</createdTime>
 <generatorID>CA149968-B366-1172-51BB-1DAE7E1E5D2F</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <referedAttribute>830DB002-F54F-53C2-6B8D-9C87A53AAACF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,6 +35,9 @@
 <createdTime>2022-04-25 09:27:29 UTC</createdTime>
 <commentInRDBMS><![CDATA[month of temperature]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -40,6 +49,9 @@
 <createdTime>2022-04-25 09:36:37 UTC</createdTime>
 <commentInRDBMS><![CDATA[highest temperature]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -51,6 +63,9 @@
 <createdTime>2022-04-25 09:36:43 UTC</createdTime>
 <commentInRDBMS><![CDATA[lowest temperature ]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -63,6 +78,10 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:37:36 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>CEA8242D-92EE-D5E9-4D61-DC72952CC26F</attributeRef>

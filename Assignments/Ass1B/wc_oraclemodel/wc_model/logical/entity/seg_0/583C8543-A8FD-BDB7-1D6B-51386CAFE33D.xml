@@ -3,6 +3,9 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:40:50 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -17,17 +20,23 @@
 <createdTime>2022-04-25 09:45:42 UTC</createdTime>
 <generatorID>024650BA-FAC7-1BC8-B91E-21BEDA064EEB</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <referedAttribute>830DB002-F54F-53C2-6B8D-9C87A53AAACF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="tour_no" id="DEF188AF-6EA1-10CD-8609-66061F30653C">
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:40:58 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -39,6 +48,9 @@
 <createdTime>2022-04-25 09:41:09 UTC</createdTime>
 <commentInRDBMS><![CDATA[name of tour]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -50,6 +62,9 @@
 <createdTime>2022-04-25 09:41:10 UTC</createdTime>
 <commentInRDBMS><![CDATA[description of tour]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -61,6 +76,9 @@
 <createdTime>2022-04-25 09:41:10 UTC</createdTime>
 <commentInRDBMS><![CDATA[tour hours required]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -72,6 +90,9 @@
 <createdTime>2022-04-25 09:41:10 UTC</createdTime>
 <commentInRDBMS><![CDATA[tour cost per person]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -83,6 +104,9 @@
 <createdTime>2022-04-25 09:41:11 UTC</createdTime>
 <commentInRDBMS><![CDATA[tour wheelchair access Y-yes N-no]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -94,11 +118,14 @@
 </listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name=" tour_avaliability" id="51C383E3-C452-B73A-FF11-15A85173E7A4">
+<Attribute name="tour_avaliability" id="51C383E3-C452-B73A-FF11-15A85173E7A4">
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:41:11 UTC</createdTime>
 <commentInRDBMS><![CDATA[tour avaliability slot left]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -110,6 +137,9 @@
 <createdTime>2022-04-25 09:41:11 UTC</createdTime>
 <commentInRDBMS><![CDATA[tour start]]></commentInRDBMS>
 <ownerDesignName>wc_model</ownerDesignName>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -122,6 +152,10 @@
 <createdBy>darren</createdBy>
 <createdTime>2022-04-25 09:41:04 UTC</createdTime>
 <ownerDesignName>wc_model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="967765E8-7492-0797-3005-D6066B17CD73" value="false"/>
+</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>DEF188AF-6EA1-10CD-8609-66061F30653C</attributeRef>

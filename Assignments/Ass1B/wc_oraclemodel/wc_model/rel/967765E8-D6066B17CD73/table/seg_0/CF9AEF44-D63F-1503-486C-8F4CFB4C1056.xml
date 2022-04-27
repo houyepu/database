@@ -24,19 +24,20 @@
 <Column name="cabin_class" id="CFA5D0B2-271B-E287-6777-CB5D2AE912BE">
 <createdBy>houye</createdBy>
 <createdTime>2022-04-26 01:03:43 UTC</createdTime>
-<commentInRDBMS><![CDATA[cabin class]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[cabin class I-interior O-ocean view B-balcony S-suite]]></commentInRDBMS>
 <generatorID>22F6C04F-0253-8214-0E95-D18B06D6E0CE</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
 <listOfValues>
-<valueDef value="FC" description="FirstClass"/>
-<valueDef value="SC" description="SecondClass"/>
-<valueDef value="TC" description="ThirdClass"/>
+<valueDef value="B" description="balcony"/>
+<valueDef value="I" description="interior"/>
+<valueDef value="O" description="ocean view"/>
+<valueDef value="S" description="suite"/>
 </listOfValues>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ship_code" id="5FB5AE1C-5366-20AD-021A-F135CE8A7206">
@@ -49,7 +50,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -66,7 +67,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -96,7 +97,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -113,7 +114,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
@@ -123,6 +124,7 @@
 <Column name="cabin_capacity" id="F8E07C0C-07CD-1DB6-BD06-FF939DAE3AC3">
 <createdBy>houye</createdBy>
 <createdTime>2022-04-26 01:03:43 UTC</createdTime>
+<commentInRDBMS><![CDATA[cabin capacity]]></commentInRDBMS>
 <generatorID>4DF62C4F-2E84-693D-BA78-2A36E2457033</generatorID>
 <ownerDesignName>wc_model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
