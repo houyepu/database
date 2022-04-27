@@ -29,15 +29,15 @@
 <ownerDesignName>wc_model</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
 <listOfValues>
 <valueDef value="B" description="balcony"/>
 <valueDef value="I" description="interior"/>
 <valueDef value="O" description="ocean view"/>
 <valueDef value="S" description="suite"/>
 </listOfValues>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="ship_code" id="5FB5AE1C-5366-20AD-021A-F135CE8A7206">
